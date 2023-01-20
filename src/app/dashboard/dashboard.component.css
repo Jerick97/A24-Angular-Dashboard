@@ -1,5 +1,6 @@
 .grid-container {
   margin: 20px;
+  height: auto;
 }
 
 .dashboard-card {
@@ -18,4 +19,31 @@
 
 .dashboard-card-content {
   text-align: center;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
+
+.imgDog{
+  width: 50%;
+  height: auto;
+}
+
+.centrar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  margin-left: 2%;
+}
+
+.mat-card-actions{
+  padding: 0 !important;
 }
